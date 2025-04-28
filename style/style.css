@@ -2,10 +2,10 @@
     margin: 0;
 }
 
-@font-face{
+@font-face {
     font-family: "inter";
     src: url('../font/TT\ Interphases\ Pro\ Mono\ Trial\ Bold.ttf');
-  }
+}
 
 body {
     background-color: #252528;
@@ -38,14 +38,14 @@ body {
 }
 
 #opcoes_body {
-   background-color: #2d2e30;
-   border-radius: 30px;
-   width: 3.863rem;
-   gap: 5px;
-   margin-left: 5%;
-   margin-top: 3%;
-   display: flex;
-   align-items: center;
+    background-color: #2d2e30;
+    border-radius: 30px;
+    width: 3.863rem;
+    gap: 5px;
+    margin-left: 5%;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
 }
 
 #brasil_bandeira {
@@ -55,7 +55,7 @@ body {
     width: 35%;
 }
 
-#opcoes_body p{
+#opcoes_body p {
     color: white;
     font-family: inter;
     font-size: 0.75rem;
@@ -71,19 +71,19 @@ body {
     margin-left: 50%;
 }
 
-#opcoes_transferencia{
+#opcoes_transferencia {
     background-color: #2d2e30;
     border-radius: 20px;
     margin: 5%;
 }
 
-#saldo_conta{
+#saldo_conta {
     display: flex;
     gap: 0px;
     align-items: center;
 }
 
-#rs{
+#rs {
     color: white;
     font-family: inter;
     margin-top: 1.875rem;
@@ -92,7 +92,7 @@ body {
     font-size: 1.6rem;
 }
 
-#pontos{
+#pontos {
     color: white;
     font-family: inter;
     margin-top: 1.875rem;
@@ -101,11 +101,42 @@ body {
     font-size: 2rem;
 }
 
-#seta{
+#seta {
     color: #b6b7bb;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 1.875rem;
     margin-left: 10.65rem;
     margin-bottom: 1.25rem;
     font-size: 2rem;
+}
+
+#opcoes_pagamentos {
+    background-color: #252528;
+    border-radius: 30px;
+    width: 5rem;
+    gap: 5px;
+    margin-left: 5%;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+}
+
+#logo_pix {
+    margin-left: 8.5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 35%;
+}
+
+#opcoes_pagamentos p {
+    color: white;
+    font-family: inter;
+    font-size: 0.75rem;
+}
+
+#logo_trans{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 25%;
 }
