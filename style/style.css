@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+}
+
+@font-face{
+    font-family: "inter";
+    src: url('../font/TT\ Interphases\ Pro\ Mono\ Trial\ Bold.ttf');
+  }
+
+body {
+    background-color: #252528;
+}
+
+#logo_inter {
+    width: 25%;
+    padding: 5%;
+}
+
+#logo_perfil {
+    width: 8%;
+    padding: 5%;
+    position: fixed;
+    right: 0;
+}
+
+#revelar_saldo {
+    width: 12%;
+    position: fixed;
+    padding: 5%;
+    right: 25%;
+}
+
+#pesquisa_navbar {
+    width: 11%;
+    position: fixed;
+    padding: 5%;
+    right: 12%;
+}
+
+#opcoes_body {
+   background-color: #2d2e30;
+   border-radius: 30px;
+   width: 3.863rem;
+   gap: 5px;
+   margin-left: 5%;
+   margin-top: 3%;
+   display: flex;
+   align-items: center;
+}
+
+#brasil_bandeira {
+    margin-left: 8px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 35%;
+}
+
+#opcoes_body p{
+    color: white;
+    font-family: inter;
+    font-size: 0.75rem;
+}
+
+#mundo_bandeira {
+    width: 32%;
+    margin-left: 40%;
+}
+
+#loop_logo {
+    width: 32%;
+    margin-left: 50%;
+}
+
+#opcoes_transferencia{
+    background-color: #2d2e30;
+    border-radius: 20px;
+    margin: 5%;
+}
+
+#saldo_conta{
+    display: flex;
+    gap: 0px;
+    align-items: center;
+}
+
+#rs{
+    color: white;
+    font-family: inter;
+    margin-top: 1.875rem;
+    margin-left: 1.25rem;
+    margin-bottom: 1.25rem;
+    font-size: 1.6rem;
+}
+
+#pontos{
+    color: white;
+    font-family: inter;
+    margin-top: 1.875rem;
+    margin-left: 0.3rem;
+    margin-bottom: 1.25rem;
+    font-size: 2rem;
+}
+
+#seta{
+    color: #b6b7bb;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.875rem;
+    margin-left: 10.65rem;
+    margin-bottom: 1.25rem;
+    font-size: 2rem;
+}
