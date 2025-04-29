@@ -7,6 +7,11 @@
     src: url('../font/TT\ Interphases\ Pro\ Mono\ Trial\ Bold.ttf');
 }
 
+@font-face {
+    font-family: 'bold';
+    src: url('../font/CreatoDisplay-Bold.otf');
+}
+
 body {
     background-color: #252528;
 }
@@ -19,20 +24,20 @@ body {
 #logo_perfil {
     width: 8%;
     padding: 5%;
-    position: fixed;
+    position: absolute;
     right: 0;
 }
 
 #revelar_saldo {
     width: 12%;
-    position: fixed;
+    position: absolute;
     padding: 5%;
     right: 25%;
 }
 
 #pesquisa_navbar {
     width: 11%;
-    position: fixed;
+    position: absolute;
     padding: 5%;
     right: 12%;
 }
@@ -57,7 +62,7 @@ body {
 
 #opcoes_body p {
     color: white;
-    font-family: inter;
+    font-family: bold;
     font-size: 0.75rem;
 }
 
@@ -85,7 +90,7 @@ body {
 
 #rs {
     color: white;
-    font-family: inter;
+    font-family: bold;
     margin-top: 1.875rem;
     margin-left: 1.25rem;
     margin-bottom: 1.25rem;
@@ -94,7 +99,7 @@ body {
 
 #pontos {
     color: white;
-    font-family: inter;
+    font-family: bold;
     margin-top: 1.875rem;
     margin-left: 0.3rem;
     margin-bottom: 1.25rem;
@@ -104,39 +109,227 @@ body {
 #seta {
     color: #b6b7bb;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 1.875rem;
-    margin-left: 10.65rem;
+    margin-top: 1.5rem;
+    margin-left: 13rem;
     margin-bottom: 1.25rem;
     font-size: 2rem;
 }
 
 #opcoes_pagamentos {
-    background-color: #252528;
-    border-radius: 30px;
-    width: 5rem;
     gap: 5px;
-    margin-left: 5%;
-    margin-top: 3%;
     display: flex;
     align-items: center;
 }
 
 #logo_pix {
-    margin-left: 8.5px;
+    background-color: #252528;
+    border-radius: 30px;
+    margin-left: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
-    width: 35%;
+    width: 23%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+
+#logo_pix img{
+    width: 1.5rem;
 }
 
 #opcoes_pagamentos p {
     color: white;
-    font-family: inter;
+    font-family: bold;
     font-size: 0.75rem;
 }
 
-#logo_trans{
-    margin-left: 20px;
+#logo_pagar{
+    background-color: #252528;
+    border-radius: 30px;
+    margin-left: 2px;
     margin-bottom: 10px;
     margin-top: 10px;
     width: 25%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: center;
+}
+
+#logo_pagar img{
+    width: 1rem;
+}
+
+#logo_cartao{
+    background-color: #252528;
+    border-radius: 30px;
+    margin-left: 2px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 30%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    justify-content: center;
+}
+
+#logo_cartao img{
+    width: 1rem;
+}
+
+#opcoes_app{
+    display: flex;
+}
+
+#opcoes_app p {
+    color: white;
+    font-family: bold;
+    font-size: 0.75rem;
+}
+
+#shopping{
+    max-width: 60px;
+    width: 100%;
+    margin-left: 5%;
+}
+
+#shopping p{
+    text-align: center;
+    margin-top: 7px;
+}
+
+#shopping img{
+    background-color: #2d2e30;
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#invest{
+    max-width: 61px;
+    width: 100%;
+    margin-left: 5%;
+}
+
+#invest p{
+    text-align: center;
+    margin-top: 8px;
+}
+
+#invest img{
+    background-color: #2d2e30;
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#recargas{
+    max-width: 60px;
+    width: 100%;
+    margin-left: 5%;
+}
+
+#recargas p{
+    text-align: center;
+    margin-top: 7px;
+}
+
+#recargas img{
+    background-color: #2d2e30;
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#giftCard{
+    max-width: 60px;
+    width: 100%;
+    margin-left: 5%;
+}
+
+#giftCard p{
+    text-align: center;
+    margin-top: 7px;
+}
+
+#giftCard img{
+    background-color: #2d2e30;
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#poucancas{
+    max-width: 60px;
+    width: 100%;
+    margin-left: 5%;
+}
+
+#poucancas p{
+    text-align: center;
+    margin-top: 7px;
+}
+
+#poucancas img{
+    background-color: #2d2e30;
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#prog_preta img{
+    width: 371px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    border-radius: 15px;
+    height: auto;
+}
+
+#propaganda img{
+    width: 371px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    border-radius: 15px;
+    height: auto;
+}
+
+#opcoes p{
+    font-family: bold;
+    font-size: 1rem;
+}
+
+#inicio{
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    position: fixed;
+    justify-content: center;
+    max-width: 60px;
+    width: 100%;
+}
+
+#inicio img{
+    width: 100%;
+}
+
+#inicio p{
+    margin-top: 7px;
+    color: #ea7100;
+    text-align: center;
 }
