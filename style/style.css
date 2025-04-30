@@ -182,7 +182,13 @@ body {
 }
 
 #opcoes_app{
-    display: flex;
+    display: inline flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
+    height: 90px;
+    white-space: nowrap;
+    align-items: center;
 }
 
 #opcoes_app p {
@@ -193,7 +199,7 @@ body {
 
 #shopping{
     max-width: 60px;
-    width: 100%;
+    width: 60px;
     margin-left: 5%;
 }
 
@@ -205,15 +211,14 @@ body {
 #shopping img{
     background-color: #2d2e30;
     border-radius: 20px;
-    width: 100%;
+    width: 54px;
     height: auto;
     display: block;
     margin: 0 auto;
 }
 
 #invest{
-    max-width: 61px;
-    width: 100%;
+    width: 60px;
     margin-left: 5%;
 }
 
@@ -225,7 +230,7 @@ body {
 #invest img{
     background-color: #2d2e30;
     border-radius: 20px;
-    width: 100%;
+    width: 54px;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -245,7 +250,7 @@ body {
 #recargas img{
     background-color: #2d2e30;
     border-radius: 20px;
-    width: 100%;
+    width: 54px;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -265,7 +270,7 @@ body {
 #giftCard img{
     background-color: #2d2e30;
     border-radius: 20px;
-    width: 100%;
+    width: 54px;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -285,8 +290,28 @@ body {
 #poucancas img{
     background-color: #2d2e30;
     border-radius: 20px;
-    width: 100%;
+    width: 54px;
     height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#mostrar_mais{
+    max-width: 71px;
+    width: 100%;
+    margin-left: 5%;
+}
+
+#mostrar_mais p{
+    text-align: center;
+    margin-top: 7px;
+}
+
+#mostrar_mais img{
+    background-color: #2d2e30;
+    border-radius: 20px;
+    width: 54px;
+    height: 57px;
     display: block;
     margin: 0 auto;
 }
@@ -309,18 +334,26 @@ body {
     height: auto;
 }
 
+#opcoes{
+    display: inline flex;
+    width: 100%;
+    gap: 20px;
+    bottom: 10px;
+    position: fixed;
+    background-color: #252528;
+}
+
 #opcoes p{
     font-family: bold;
-    font-size: 1rem;
+    font-size: 0.7rem;
 }
 
 #inicio{
     align-items: center;
     margin-top: 5%;
     margin-left: 5%;
-    position: fixed;
     justify-content: center;
-    max-width: 60px;
+    max-width: 40px;
     width: 100%;
 }
 
@@ -332,4 +365,99 @@ body {
     margin-top: 7px;
     color: #ea7100;
     text-align: center;
+}
+
+#invest2{
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    justify-content: center;
+    max-width: 47px;
+    width: 100%;
+}
+
+#invest2 p{
+    margin-top: 7px;
+    text-align: center;
+    color: rgb(201, 198, 198);
+}
+
+#invest2 img{
+    width: 100%;
+}
+
+#forum{
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    justify-content: center;
+    max-width: 44px;
+    width: 100%;
+}
+
+#forum p{
+    margin-top: 7px;
+    text-align: center;
+    color: rgb(201, 198, 198);
+}
+
+#forum img{
+    width: 100%;
+}
+
+#shop{
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    justify-content: center;
+    max-width: 41px;
+    width: 100%;
+}
+
+#shop p{
+    margin-top: 7px;
+    text-align: center;
+    color: rgb(201, 198, 198);
+}
+
+#shop img{
+    width: 100%;
+}
+
+#shop{
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    justify-content: center;
+    max-width: 41px;
+    width: 100%;
+}
+
+#shop p{
+    margin-top: 7px;
+    text-align: center;
+    color: rgb(201, 198, 198);
+}
+
+#shop img{
+    width: 100%;
+}
+
+#Mais{
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    justify-content: center;
+    max-width: 37px;
+    width: 100%;
+}
+
+#Mais p{
+    margin-top: 7px;
+    text-align: center;
+    color: rgb(201, 198, 198);
+}
+
+#Mais img{
+    width: 100%;
 }
