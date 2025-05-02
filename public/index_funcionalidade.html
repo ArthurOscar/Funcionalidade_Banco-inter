@@ -19,7 +19,7 @@
     </nav>
     <main>
         <div id="opcoes_body">
-            <div id="brasa-sem_fundo">
+            <div id="brasa-sem_fundo" onclick="voltarPagina()">
                 <img src="../img/Bandeira_brasil.png" alt="">
                 <p>R$</p>
             </div>
@@ -33,7 +33,28 @@
             </div>
         </div>
         <div id="opcoes_transferencia">
-            
+            <p id="titulo">Conversor de moedas</p>
+            <div id="forms">
+                <form>
+                    <select name="moeda_inicial" id="moeda_inicial">
+                        <option value="">Escolha uma moeda</option>
+                        <option value="dolar">Dólar</option>
+                        <option value="euro">Euro</option>
+                        <option value="libra">Libra</option>
+                        <option value="real">Real</option>
+                    </select>
+                </form>
+                <p>-></p>
+                <form>
+                    <select name="moeda_inicial" id="moeda_inicial">
+                        <option value="">Escolha uma moeda</option>
+                        <option value="dolar">Dólar</option>
+                        <option value="euro">Euro</option>
+                        <option value="libra">Libra</option>
+                        <option value="real">Real</option>
+                    </select>
+                </form>
+            </div>
         </div>
         <div id="opcoes_app">
             <div id="shopping">
