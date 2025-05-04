@@ -160,7 +160,6 @@ body {
 
 #forms p{
     font-family: bold;
-    width: auto; 
     color: white;
 }
 
@@ -169,12 +168,59 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
+    width: 100%;
+}
+
+#forms select{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 140px;
 }
 
 #moeda_inicial{
     border-style: none;
-    background-color: white;
+    background-color: #252528;
     font-family: bold;
+    color: white;
+    padding: 3%;
+}
+
+#moeda_conversao{
+    border-style: none;
+    background-color: #252528;
+    font-family: bold;
+    color: white;
+    padding: 3%;
+}
+
+#valoresFinais input{
+    border: solid white 1px;
+    background-color: #252528;
+    font-family: bold;
+    color: white;
+    padding: 1%;
+    max-width: 140px;
+    width: 100%;
+}
+
+#valoresFinais{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 67px;
+    width: 100%;
+    margin-top: 1%;
+}
+
+#butao{
+    border: solid white 1px;
+    background-color: #252528;
+    font-family: bold;
+    color: white;
+    padding: 1%;
+    width: 94%;
+    margin: 3%;
 }
 
 #saldo_conta {

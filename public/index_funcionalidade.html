@@ -44,9 +44,9 @@
                         <option value="real">Real</option>
                     </select>
                 </form>
-                <p>-></p>
+                <p>>>></p>
                 <form>
-                    <select name="moeda_inicial" id="moeda_inicial">
+                    <select name="moeda_inicial" id="moeda_conversao">
                         <option value="">Escolha uma moeda</option>
                         <option value="dolar">Dólar</option>
                         <option value="euro">Euro</option>
@@ -55,6 +55,11 @@
                     </select>
                 </form>
             </div>
+            <div id="valoresFinais">
+                <input type="number" id="valorInicial" placeholder="Digite um valor">
+                <input type="text" id="valorConvertido">
+            </div>
+            <button onclick="conversorMoeda()" id="butao">Converter</button>
         </div>
         <div id="opcoes_app">
             <div id="shopping">
