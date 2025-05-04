@@ -1,0 +1,5 @@
+A função da minha nova Funcionalidade é converter valores de moedas, 
+real, euro, dólar e libra, com valores definidos pela cotação do 
+google no dia 04/05/25. Ao abrir o index inicial, ira abrir a tela inicial 
+do app Inter, ao clicar em converter, ira para o index da minha funcionalidade
+e lá poderá converter valores.
